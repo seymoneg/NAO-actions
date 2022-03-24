@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="welcome_hs_visits-8e65eb" version="0.0.1" installOnlyAtStartup="false">
+ <names>
+  <name lang="en_US">ecu_welcome</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">welcome to ecu</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">ecu_welcome</name>
+   </names>
+   <descriptions>
+    <description lang="en_US">welcome to the tech tour</description>
+   </descriptions>
+   <triggerSentences>
+    <sentence lang="en_US">greet</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement/>
+  <robotRequirement model="NAO"/>
+ </requirements>
+</package>

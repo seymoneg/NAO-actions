@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package installOnlyAtStartup="false" version="0.0.1" uuid="emotion-f744b0">
+ <names>
+  <name lang="en_US">emotion_demo</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">demonstrates emotions</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">emotion_demo</name>
+   </names>
+   <descriptions>
+    <description lang="en_US">demonstrates emotion</description>
+   </descriptions>
+   <triggerSentences>
+    <sentence lang="en_US">emotion</sentence>
+   </triggerSentences>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement/>
+  <robotRequirement model="NAO"/>
+ </requirements>
+</package>

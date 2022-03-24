@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="head_touch-28d984" version="0.0.1" installOnlyAtStartup="false">
+ <names>
+  <name lang="en_US">head_touch</name>
+ </names>
+ <descriptions>
+  <description lang="en_US">reactions when head is touched</description>
+ </descriptions>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path="behavior_1">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">head_touch</name>
+   </names>
+   <descriptions>
+    <description lang="en_US">reactions when head is touched</description>
+   </descriptions>
+   <triggerSentences>
+    <sentence lang="en_US">head</sentence>
+   </triggerSentences>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement/>
+  <robotRequirement model="NAO"/>
+ </requirements>
+</package>
